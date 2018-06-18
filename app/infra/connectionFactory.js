@@ -9,6 +9,4 @@ function createDbConnection() {
   });
 }
 
-module.exports = function () {
-  return createDbConnection;
-}
+module.exports = () => createDbConnection;
